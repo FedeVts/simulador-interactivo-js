@@ -1,0 +1,1 @@
+Primer ejercicio de JavaScript entregado el dia 15/08/2022
