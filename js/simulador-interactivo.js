@@ -2,9 +2,11 @@
      let precioProducto = parseInt(prompt("ingrese el costo de " + producto));
      let cantidadDeProductos = parseInt(prompt("Indique la cantidad que desea compra en unidades"));
      let cuotaProducto = parseInt(prompt("Indique la cantidad de cuotas, 6-12-18-24"));
-     let agregadoDeIva =  (precioTotal(precioProducto, cantidadDeProductos) * 21)  / 100;
+     
+
      function precioTotal(precioProducto, cantidadDeProductos){
         let costo = precioProducto * cantidadDeProductos;
+        let agregadoDeIva =  (precioTotal(precioProducto, cantidadDeProductos) * 21)  / 100;
         return costo;
      }
 
